@@ -60,6 +60,7 @@ O projeto está organizado da seguinte forma:
 
 
 **Diagrama de Entidade Relacionamento ExtendidoEstendido:**
+![EER Diagram](https://github.com/user-attachments/assets/34d78123-cea4-4424-aa67-c13d9ec6f34b)
 
 
 ### 🧷Trabalhos Futuros:
