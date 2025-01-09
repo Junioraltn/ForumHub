@@ -3,10 +3,5 @@ CREATE TABLE Cursos(
     nome VARCHAR(45) NOT NULL,
     categoria ENUM('GERAL','TECNOLOGIA','PROGRAMACAO','CIENCIA_DE_DADOS','INTELIGENCIA_ARTIFICIAL','DEVOPS','SEGURANCA_DA_INFORMACAO','BANCO_DE_DADOS','FRONT_END','BACK_END','MOBILE','OUTROS') NOT NULL,
 
-    CONSTRAINT unique_nome_curso UNIQUE(nome)
+    CONSTRAINT unique_nome_curso UNIQUE (nome)
 );
-
---INSERT INTO Cursos
---    VALUES
---        (1,'Engenharia_de_Produção','GERAL'),
---        (2,'Ciência_De_Dados','CIENCIA_DE_DADOS');
